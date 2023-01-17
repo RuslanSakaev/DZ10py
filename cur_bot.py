@@ -2,7 +2,7 @@ import telebot
 import req
 
 
-bot = telebot.TeleBot("5882084857:AAEvI1fKON0yMEt5Vlg16fZ_AHtZYT-H84c")
+bot = telebot.TeleBot("TOKEN")
 
 
 @bot.message_handler(commands=['help'])
