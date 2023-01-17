@@ -12,7 +12,7 @@ def available_valute(curr=False):
     else:
         for i in valute_keys:
             valute_info += f'{i} - {res["Valute"][i]["Name"]}' + '\n'
-            return valute_info
+        return valute_info
 
 
 def valute(code):

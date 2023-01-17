@@ -9,9 +9,9 @@ bot = telebot.TeleBot("5882084857:AAEvI1fKON0yMEt5Vlg16fZ_AHtZYT-H84c")
 def send_info(message):
     bot.send_message(
         message.chat.id, 'Это бот для получения информации о курсе валют')
-    info = "Доступные команды:\n\
-/valute all - получить коды всех валют\n\
-/valute all_v - получить курс всех валют\n\
+    info = "Доступные команды: \n \
+/valute all - получить коды всех валют \n \
+/valute all_v - получить курс всех валют \n \
 /valute <код валюты> - получить курс конкретной валюты"
     bot.send_message(message.chat.id, info)
 
